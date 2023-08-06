@@ -19,23 +19,23 @@ Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC
 # Smart-Contracts 📜
 📜 Main-Contract: [Smart Chain Network (BSC)](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9)
 
-📜 Bridge-Contract: [Ethereum Network (ETH)](https://etherscan.io/token/0xf2fef8fa2c52b927c0a589a1a645c77189f24541)
+📜 Bridge-CA: [Ethereum Network (ETH)](https://etherscan.io/token/0xf2fef8fa2c52b927c0a589a1a645c77189f24541)
 
-📜 Bridge-Contract: [Arbitrum Network (ARB)](https://arbiscan.io/token/0xdc95becd16081bf00c3cabac5820a3e18b495cad)
+📜 Bridge-CA: [Arbitrum Network (ARB)](https://arbiscan.io/token/0xdc95becd16081bf00c3cabac5820a3e18b495cad)
 
-📜 Bridge-Contract: [Polygon Network (MATIC)](https://polygonscan.com/token/0x026a2ede22cc9525793120a3763d3a1c2c6840a8)
+📜 Bridge-CA: [Polygon Network (MATIC)](https://polygonscan.com/token/0x026a2ede22cc9525793120a3763d3a1c2c6840a8)
 
-📜 Bridge-Contract: [Optimism Network (OP)](https://optimistic.etherscan.io/token/0x92f1950d8c80a2d844b321e65e226a694801cc13)
+📜 Bridge-CA: [Optimism Network (OP)](https://optimistic.etherscan.io/token/0x92f1950d8c80a2d844b321e65e226a694801cc13)
 
-📜 Bridge-Contract: [Avalanche C-Network (AVAX)](https://snowtrace.io/token/0x7462617313b26d7b72daed71a852e51588f7f1a7)
+📜 Bridge-CA: [Avalanche C-Network (AVAX)](https://snowtrace.io/token/0x7462617313b26d7b72daed71a852e51588f7f1a7)
 
-📜 Bridge-Contract: [Fantom Network (FTM)](https://ftmscan.com/token/0x6c8a70329061DE6A4d641e4ef835CBdB3d094f00)
+📜 Bridge-CA: [Fantom Network (FTM)](https://ftmscan.com/token/0x6c8a70329061DE6A4d641e4ef835CBdB3d094f00)
 
-📜 Bridge-Contract: [Aptos Chain Network (APT)](https://aptoscan.com/coin/0x6917bec3bdfe7423619c1e128f8bebdc62405377aaf32365283e2ec5353fe1f7::coin::T)
+📜 Bridge-CA: [Aptos Chain Network (APT)](https://aptoscan.com/coin/0x6917bec3bdfe7423619c1e128f8bebdc62405377aaf32365283e2ec5353fe1f7::coin::T)
 
-📜 Bridge-Contract: [Base Mainnet Network (BASE)](https://basescan.org/token/0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b)
+📜 Bridge-CA: [Base Mainnet Network (BASE)](https://basescan.org/token/0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b)
 
-📜 Bridge-Contract: [Terra Mainnet Network (LUNA)](https://finder.terra.money/mainnet/address/terra163r4xt4664uqre859xuth8n3eqa3zxruc2mvt5xfn6pw43jpr5rs67p6u6)
+📜 Bridge-CA: [Terra Mainnet Network (LUNA)](https://finder.terra.money/mainnet/address/terra163r4xt4664uqre859xuth8n3eqa3zxruc2mvt5xfn6pw43jpr5rs67p6u6)
 
 # Roadmap 🗞️
 🔹 **Phase 1 Preparations:**
