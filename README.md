@@ -1,1 +1,116 @@
-# about-us
+# About-Us  ⚙️
+Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC enables communication between blockchains and their smart contracts. Through Cloudbit's decentralized ecosystem, it allows to provide with external data, events and payment methods and process off-chain information. The CDBC network is powered by a large community of data processing providers or node operators, smart contract developers and security auditors. Cloudbit focuses on ensuring that decentralized participation is available to node operators and its users.
+
+# Tokenomics 🪙
+🔹 Name: Cloudbit Classic
+
+🔹 Symbol: CDBC
+
+🔹 Decimals: 18
+
+🔹 Type: BEP-20
+
+🔹 Total Supply: 200 Million CDBC (100%)
+
+🔹 Tokens Burned: 2 Million CDBC (1%)
+
+🔹 Buy/Sell Tax: 0% Buy/Sell Tax
+
+# Smart-Contracts 📜
+📜 Main-Contract: [Smart Chain Network (BSC)](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9)
+
+📜 Bridge-Contract: [Ethereum Network (ETH)](https://etherscan.io/token/0xf2fef8fa2c52b927c0a589a1a645c77189f24541)
+
+📜 Bridge-Contract: [Arbitrum Network (ARB)](https://arbiscan.io/token/0xdc95becd16081bf00c3cabac5820a3e18b495cad)
+
+📜 Bridge-Contract: [Polygon Network (MATIC)](https://polygonscan.com/token/0x026a2ede22cc9525793120a3763d3a1c2c6840a8)
+
+📜 Bridge-Contract: [Optimism Network (OP)](https://optimistic.etherscan.io/token/0x92f1950d8c80a2d844b321e65e226a694801cc13)
+
+📜 Bridge-Contract: [Avalanche C-Network (AVAX)](https://snowtrace.io/token/0x7462617313b26d7b72daed71a852e51588f7f1a7)
+
+📜 Bridge-Contract: [Fantom Network (FTM)](https://ftmscan.com/token/0x6c8a70329061DE6A4d641e4ef835CBdB3d094f00)
+
+📜 Bridge-Contract: [Aptos Chain Network (APT)](https://aptoscan.com/coin/0x6917bec3bdfe7423619c1e128f8bebdc62405377aaf32365283e2ec5353fe1f7::coin::T)
+
+📜 Bridge-Contract: [Base Mainnet Network (BASE)](https://basescan.org/token/0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b)
+
+📜 Bridge-Contract: [Terra Mainnet Network (LUNA)](https://finder.terra.money/mainnet/address/terra163r4xt4664uqre859xuth8n3eqa3zxruc2mvt5xfn6pw43jpr5rs67p6u6)
+
+# Roadmap 🗞️
+🔹 **Phase 1 Preparations:**
+
+➕ New Whitepaper; One-Pager; Pitch-Deck documents
+
+➕ New Website-Design
+
+➕ Better infrastructure within Cloudbit ecosystem
+
+➕ Create Cloudbit Classic (CDBC)
+
+➕ $CDBC Audited by AnalytixAudit
+
+➕ $CDBC Press Release Distribution by King NewsWire
+
+
+🔹 **Phase 2 $CDBC Coin:**
+
+➕ Crosschain/Multichain Bridge
+
+➕ Get SAFU & KYC badge
+
+➕ Launch/Fair Launch on Pinksale
+
+➕ Staking Pool on GemPad
+
+➕ Stake CDBC/Earn CDBC
+
+➕ CG and CMC Listings
+
+➕ 1,000+ Holders
+
+
+🔹 **Phase 3 Vibe and HODL:**
+
+➕ Community Partnerships CDBC Times digital newsletter
+
+➕ Formation of token gated Telegram group, for holders
+
+➕ Get $CDBC trending on Twitter
+
+➕ CEX Listings
+
+➕ 10,000+ Holders
+
+
+🔹 **Phase 4 Coin Takeover:**
+
+➕ CDBC Academy
+
+➕ CDBC Merch
+
+➕ CDBC Tools
+
+➕ Coin Takeover
+
+➕ T1 Exchange Listings
+
+➕ 100,000+ Holders
+
+# Docs 📄
+📄 Whitepaper: [Link](https://docsend.com/view/u3tv96pv29fv48qv)
+
+📄 Onepager: [Link](https://docsend.com/view/bwzi5umfc3snf7mg)
+
+📄 Pitch-Deck: [Link](https://docsend.com/view/82pscuge38wm53h3)
+
+📄 Audit-Report: [Link](https://github.com/AnalytixAudit/Solidity/blob/main/20230224_Analytix%20Audit_Cloudbit%20Classic_Audit.pdf)
+
+📄 Voting-Provider: [Link](https://docsend.com/view/ewezccw9ssqjkjce)
+
+📄 Terms of coin sale: [Link](https://docsend.com/view/dzei46jwjaqmpdn6)
+
+# Others 🔗
+🔗 All-Links: [Linktree](https://linktr.ee/cloudbit)
+
+🔗 Contact-Us: [Link](https://cloudbitex.com/#contact)
