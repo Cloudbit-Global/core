@@ -1,4 +1,4 @@
-# About-Us  ⚙️
+# Cloudbit Classic (CDBC)  ⚙️
 Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC enables communication between blockchains and their smart contracts. Through Cloudbit's decentralized ecosystem, it allows to provide with external data, events and payment methods and process off-chain information. The CDBC network is powered by a large community of data processing providers or node operators, smart contract developers and security auditors. Cloudbit focuses on ensuring that decentralized participation is available to node operators and its users.
 
 # Tokenomics 🪙
@@ -17,7 +17,7 @@ Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC
 🔹 Buy/Sell Tax: 0% Buy/Sell Tax
 
 # Smart-Contracts 📜
-📜 Main-Contract: [Smart Chain Network (BSC)](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9)
+📜 Main-CA: [Smart Chain Network (BSC)](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9)
 
 📜 Bridge-CA: [Ethereum Network (ETH)](https://etherscan.io/token/0xf2fef8fa2c52b927c0a589a1a645c77189f24541)
 
