@@ -1,4 +1,8 @@
-# Cloudbit Classic (CDBC)  ⚙️
+**Cloudbit: Innovative P2P Cryptocurrency Multichain Platform ($CDBC)**
+
+![Cloudbit_Header_New_2023](https://github.com/Cloudbit-Global/core/assets/60361955/5fc7b8bc-166c-4852-8476-7c524671a5b4)
+
+# What is Cloudbit Classic (CDBC)  ⚙️
 Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC enables communication between blockchains and their smart contracts. Through Cloudbit's decentralized ecosystem, it allows to provide with external data, events and payment methods and process off-chain information. The CDBC network is powered by a large community of data processing providers or node operators, smart contract developers and security auditors. Cloudbit focuses on ensuring that decentralized participation is available to node operators and its users.
 
 # Tokenomics 🪙
