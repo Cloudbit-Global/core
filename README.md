@@ -117,4 +117,6 @@ Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC
 # Others 🔗
 🔗 All-Links: [Linktree](https://linktr.ee/cloudbit)
 
+🔗 CDBC-API: [Link](https://cloudbitex.com/apis/)
+
 🔗 Contact-Us: [Link](https://cloudbitex.com/#contact)
