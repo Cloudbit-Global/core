@@ -20,6 +20,8 @@ Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC
 
 🔹 Buy/Sell Tax: 0% Buy/Sell Tax
 
+🔹 Main-CA: 0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9
+
 # Smart-Contracts 📜
 📜 Main-CA: [Smart Chain Network (BSC)](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9)
 
@@ -40,6 +42,8 @@ Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC
 📜 Bridge-CA: [Base Mainnet Network (BASE)](https://basescan.org/token/0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b)
 
 📜 Bridge-CA: [Terra Mainnet Network (LUNA)](https://finder.terra.money/mainnet/address/terra163r4xt4664uqre859xuth8n3eqa3zxruc2mvt5xfn6pw43jpr5rs67p6u6)
+
+📜 Bridge-CA: [Solana Network (SOL)](https://solscan.io/token/J74E2uSud3EH2aAUNLaxMRDyHde7oHDYopGLaim4DZta)
 
 # Roadmap 🗞️
 🔹 **Phase 1 Preparations:**
