@@ -43,7 +43,7 @@ Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC
 
 📜 Bridge-CA: [Solana Network (SOL)](https://solscan.io/token/J74E2uSud3EH2aAUNLaxMRDyHde7oHDYopGLaim4DZta)
 
-📜 Bridge-CA: [Terra Classic Network (LUNC)](https://finder.terra.money/classic/address/terra1q20zrqn278jm6e4a2z5ygky00h22l4js7wsge74xf4wwyald4r8qsyvyuj))
+📜 Bridge-CA: [Terra Classic Network (LUNC)](https://finder.terraclassic.community/mainnet/address/terra1q20zrqn278jm6e4a2z5ygky00h22l4js7wsge74xf4wwyald4r8qsyvyuj)
 
 📜 Bridge-CA: [Terra Mainnet Network (LUNA)](https://finder.terra.money/mainnet/address/terra163r4xt4664uqre859xuth8n3eqa3zxruc2mvt5xfn6pw43jpr5rs67p6u6)
 
