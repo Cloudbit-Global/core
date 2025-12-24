@@ -23,7 +23,7 @@ Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC
 🔹 Main-CA: 0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9
 
 # Trading on CEX's 💰
-💰 TBA
+💰 !TBA!
 
 # Smart-Contracts 📜
 📜 Main-CA: [Smart Chain Network (BSC)](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9)
