@@ -38,7 +38,7 @@ Cloudbit founded in 2019. Cloudbit Classic (CDBC) is a cryptocurrency coin. CDBC
 
 📜 Bridge-CA: [Avalanche C-Network (AVAX)](https://snowtrace.io/token/0x7462617313b26d7b72daed71a852e51588f7f1a7)
 
-📜 Bridge-CA: [Sonic Mainnet Network (S)](https://sonicscan.com)
+📜 Bridge-CA: [Sonic Mainnet Network (S)](https://sonicscan.org)
 
 📜 Bridge-CA: [Aptos Chain Network (APT)](https://explorer.aptoslabs.com/coin/0x6917bec3bdfe7423619c1e128f8bebdc62405377aaf32365283e2ec5353fe1f7::coin::T?network=mainnet)
 
