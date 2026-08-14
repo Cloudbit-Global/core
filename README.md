@@ -106,7 +106,7 @@ Stay updated and join the Cloudbit community!
 - 🌐 **Web:** [CDBC.IO](https://cdbc.io)
 - 🔌 **API:** [CDBC-API](https://cdbc.io/api)
 - 🌳 **All Links:** [Linktree](https://linktr.ee/cloudbit)
-- ✉️ **Contact Us:** [Get in touch](support@cloudbitex.com)
+- ✉️ **Contact Us:** [Get in touch](mailto:support@cloudbitex.com)
 
 <br>
 <div align="center">
