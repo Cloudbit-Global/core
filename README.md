@@ -4,7 +4,7 @@
   <p><b>Innovative P2P Cryptocurrency & Multichain Platform</b></p>
 
   [![Network](https://img.shields.io/badge/Network-BSC-F3BA2F?style=for-the-badge&logo=binance)](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9)
-  [![Type](https://img.shields.io/badge/Type-BEP--20-blue?style=for-the-badge)](https://cloudbitex.com)
+  [![Type](https://img.shields.io/badge/Type-BEP--20-blue?style=for-the-badge)](https://cdbc.io)
   [![Tax](https://img.shields.io/badge/Tax-0%25-success?style=for-the-badge)]()
   [![Community](https://img.shields.io/badge/Community-Join_Us-0088cc?style=for-the-badge&logo=telegram)](https://linktr.ee/cloudbit)
 </div>
