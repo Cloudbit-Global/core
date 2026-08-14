@@ -91,19 +91,19 @@ Cloudbit Classic isn't limited to a single chain. Our robust cross-chain bridge 
 ## 📚 Documentation & Resources
 Access all our technical and promotional materials below:
 
-- 📄 [Whitepaper](#)
-- 📄 [One-Pager](#)
-- 📄 [Pitch-Deck](#)
-- 🛡️ [Audit-Report](#)
-- 🗳️ [Voting-Provider](#)
-- 📜 [Terms of Coin Sale](#)
+- 📄 [Whitepaper](https://docsend.com/view/u3tv96pv29fv48qv)
+- 📄 [One-Pager](https://docsend.com/view/bwzi5umfc3snf7mg)
+- 📄 [Pitch-Deck](https://docsend.com/view/82pscuge38wm53h3)
+- 🛡️ [Audit-Report](https://github.com/AnalytixAudit/Solidity/blob/main/20230224_Analytix)
+- 🗳️ [Voting-Provider](https://docsend.com/view/ewezccw9ssqjkjce)
+- 📜 [Terms of Coin Sale](https://docsend.com/view/dzei46jwjaqmpdn6)
 
 ---
 
 ## 🌐 Official Links & Contact
 Stay updated and join the Cloudbit community!
 
-- 🌐 **Web:** [cdbc.io](https://cdbc.io)
+- 🌐 **Web:** [CDBC.IO](https://cdbc.io)
 - 🔌 **API:** [CDBC-API](https://cdbc.io/api)
 - 🌳 **All Links:** [Linktree](https://linktr.ee/cloudbit)
 - ✉️ **Contact Us:** [Get in touch](#)
