@@ -94,7 +94,7 @@ Access all our technical and promotional materials below:
 - 📄 [Whitepaper](https://docsend.com/view/u3tv96pv29fv48qv)
 - 📄 [One-Pager](https://docsend.com/view/bwzi5umfc3snf7mg)
 - 📄 [Pitch-Deck](https://docsend.com/view/82pscuge38wm53h3)
-- 🛡️ [Audit-Report](https://github.com/AnalytixAudit/Solidity/blob/main/20230224_Analytix_Audit_Cloudbit_Classic_Audit.pdf)(https://github.com/AnalytixAudit/Solidity/blob/main/20230224_Analytix%20Audit_Cloudbit%20Classic_Audit.pdf)
+- 🛡️ [Audit-Report](https://github.com/AnalytixAudit/Solidity/blob/main/20230224_Analytix_Audit_Cloudbit_Classic_Audit.pdf)
 - 🗳️ [Voting-Provider](https://docsend.com/view/ewezccw9ssqjkjce)
 - 📜 [Terms of Coin Sale](https://docsend.com/view/dzei46jwjaqmpdn6)
 
