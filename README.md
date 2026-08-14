@@ -91,7 +91,9 @@ Cloudbit Classic isn't limited to a single chain. Our robust cross-chain bridge 
 ## 📚 Documentation & Resources
 Access all our technical and promotional materials below:
 
-- 📄 [Whitepaper](#) | 📄 [One-Pager](#) | 📄 [Pitch-Deck](#)
+- 📄 [Whitepaper](#)
+- 📄 [One-Pager](#)
+- 📄 [Pitch-Deck](#)
 - 🛡️ [Audit-Report](#)
 - 🗳️ [Voting-Provider](#)
 - 📜 [Terms of Coin Sale](#)
@@ -101,9 +103,9 @@ Access all our technical and promotional materials below:
 ## 🌐 Official Links & Contact
 Stay updated and join the Cloudbit community!
 
-- 🌐 **Web:** [cloudbitex.com](https://cloudbitex.com)
-- 🔌 **API:** [CDBC-API](https://cdbc.io)
-- 🌳 **All Links:** [Linktree](#)
+- 🌐 **Web:** [cdbc.io](https://cdbc.io)
+- 🔌 **API:** [CDBC-API](https://cdbc.io/api)
+- 🌳 **All Links:** [Linktree](https://linktr.ee/cloudbit)
 - ✉️ **Contact Us:** [Get in touch](#)
 
 <br>
