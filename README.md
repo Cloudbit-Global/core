@@ -104,6 +104,7 @@ Access all our technical and promotional materials below:
 Stay updated and join the Cloudbit community!
 
 - 🌐 **Web:** [CDBC.IO](https://cdbc.io)
+- 📱 **APP:** [CDBC-API](https://cdbc.io/api)
 - 🔌 **API:** [CDBC-API](https://cdbc.io/api)
 - 🌳 **All Links:** [Linktree](https://linktr.ee/cloudbit)
 - ✉️ **Contact Us:** [Get in touch](mailto:support@cloudbitex.com)
