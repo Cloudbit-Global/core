@@ -1,10 +1,17 @@
 {
+  "schema_version": "2.0.0",
   "project": "Cloudbit Classic",
   "symbol": "CDBC",
+  "decimals": 18,
   "total_supply": "200000000",
   "tax": {
     "buy_percent": 0,
     "sell_percent": 0
+  },
+  "assets": {
+    "logo_256_png": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png",
+    "bep20_abi": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/abi/CDBC_BEP20.abi.json",
+    "erc20_abi": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/abi/CDBC_ERC20.abi.json"
   },
   "official_links": {
     "website": "https://cdbc.io",
@@ -83,5 +90,12 @@
       "address": "terra1q20zrqn278jm6e4a2z5ygky00h22l4js7wsge74xf4wwyald4r8qsyvyuj",
       "explorer": "https://finder.terra.money/classic/address/terra1q20zrqn278jm6e4a2z5ygky00h22l4js7wsge74xf4wwyald4r8qsyvyuj"
     }
+  ],
+  "upcoming_integrations": [
+    { "network": "Sonic", "status": "Upcoming Bridge Integration" },
+    { "network": "NEAR", "status": "Upcoming Bridge Integration" },
+    { "network": "Sui", "status": "Upcoming Bridge Integration" },
+    { "network": "World", "status": "Upcoming Bridge Integration" },
+    { "network": "Terra", "status": "Upcoming Bridge Integration" }
   ]
 }
