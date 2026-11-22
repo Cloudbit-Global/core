@@ -1,0 +1,123 @@
+name: Cloudbit-Global CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Hygiene, Schema & Ecosystem Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Run Ecosystem & Schema Validator
+        run: |
+          python3 - << "EOF"
+          import json
+          import re
+          import sys
+          import urllib.request
+          from pathlib import Path
+
+          ROOT = Path(".")
+          PRIMARY_BSC = "0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9"
+          errors = []
+
+          # 1. Hygiene checks: forbid committed secrets or binary APKs in git tree
+          for path in ROOT.rglob("*"):
+              if ".git" in path.parts or not path.is_file():
+                  continue
+              name = path.name
+              if name == ".env" or (name.startswith(".env.") and name != ".env.example"):
+                  errors.append(f"Secret file committed: {path}")
+              if path.suffix.lower() in {".apk", ".aab", ".jks", ".keystore", ".pem"}:
+                  errors.append(f"Binary or key artifact committed to Git tree: {path}")
+
+          # 2. Validate all JSON files for strict syntax
+          for json_file in ROOT.rglob("*.json"):
+              if ".git" in json_file.parts:
+                  continue
+              try:
+                  with open(json_file, "r", encoding="utf-8") as f:
+                      json.load(f)
+                  print(f"[OK] Valid JSON: {json_file}")
+              except Exception as exc:
+                  errors.append(f"Invalid JSON in {json_file}: {exc}")
+
+          # 3. Guard against ticker typo ('CBDC') in public docs (excluding explicit policy checklists)
+          for md_file in ROOT.rglob("*.md"):
+              if ".git" in md_file.parts or md_file.name in {"CONTRIBUTING.md", "PULL_REQUEST_TEMPLATE.md"}:
+                  continue
+              text = md_file.read_text(encoding="utf-8", errors="ignore")
+              if re.search(r"\bCBDC\b", text):
+                  errors.append(f"Potential ticker typo ('CBDC' instead of 'CDBC') in {md_file}")
+
+          # 4. Repo-specific invariant checks
+          contracts_path = ROOT / "registry" / "contracts.json"
+          if contracts_path.exists():
+              reg = json.loads(contracts_path.read_text(encoding="utf-8"))
+              if reg.get("symbol") != "CDBC":
+                  errors.append("core: registry/contracts.json symbol != CDBC")
+              if str(reg.get("total_supply")) != "200000000":
+                  errors.append("core: registry/contracts.json total_supply != 200000000")
+              if reg.get("primary_contract", {}).get("address") != PRIMARY_BSC:
+                  errors.append("core: primary BSC contract address mismatch")
+              print("[OK] Core contract registry invariants verified")
+
+          tokenlist_path = ROOT / "tokenlist.json"
+          if tokenlist_path.exists():
+              tl = json.loads(tokenlist_path.read_text(encoding="utf-8"))
+              bsc = [t for t in tl.get("tokens", []) if t.get("chainId") == 56]
+              if len(bsc) != 1 or bsc[0].get("address") != PRIMARY_BSC:
+                  errors.append("cdbc-dex: tokenlist.json missing canonical BSC CDBC entry")
+              print("[OK] CloudbitDEX tokenlist.json invariants verified")
+
+          openapi_path = ROOT / "openapi.yaml"
+          if openapi_path.exists():
+              spec = openapi_path.read_text(encoding="utf-8")
+              for required in [
+                  "https://cdbc-api.vercel.app/api/cdbc",
+                  "/supply:",
+                  "/total-supply:",
+                  "/circulating-supply:",
+                  PRIMARY_BSC,
+              ]:
+                  if required not in spec:
+                      errors.append(f"cdbc-api: openapi.yaml missing '{required}'")
+              for url in [
+                  "https://cdbc-api.vercel.app/api/cdbc/supply",
+                  "https://cdbc-api.vercel.app/api/cdbc/total-supply",
+                  "https://cdbc-api.vercel.app/api/cdbc/circulating-supply",
+              ]:
+                  req = urllib.request.Request(url, headers={"User-Agent": "Cloudbit-Global-CI/3.0"})
+                  with urllib.request.urlopen(req, timeout=20) as resp:
+                      if resp.status != 200:
+                          errors.append(f"cdbc-api: {url} returned HTTP {resp.status}")
+                      else:
+                          print(f"[OK] Live endpoint HTTP 200: {url}")
+
+          if errors:
+              print("\nCI VALIDATION FAILED:")
+              for err in errors:
+                  print(f" - {err}")
+              sys.exit(1)
+
+          print("\nALL CLOUDBIT-GLOBAL CI CHECKS PASSED")
+          EOF
