@@ -7,7 +7,7 @@
 | **`Cloudbit-Global/core`** | Active | Smart Contract Registry & Tokenomics Integrity |
 | **`Cloudbit-Global/cdbc-dex`** | Active | CloudbitDEX Multichain Swap & Listing Portal (`cloudbitex.com`) |
 | **`Cloudbit-Global/cdbc-app`** | Active | Official Main Ecosystem Portal (`cdbc.io`) |
-| **`Cloudbit-Global/cdbc-api`** | Active | Public Supply & Ecosystem Endpoints (`cdbc.io/api`) |
+| **`Cloudbit-Global/cdbc-api`** | Active | Public Supply & Ecosystem Endpoints (`cdbc-api.vercel.app`) |
 | **`Cloudbit-Global/cdbc-bot`** | Active | Telegram Mini App & Tap2Earn Bot (`@cloudbit_ai_bot` / `cloudbit.to`) |
 
 ## On-Chain Security & Tokenomics Guarantees
