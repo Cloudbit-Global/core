@@ -1,0 +1,34 @@
+name: Validate CDBC Core Registry & ABIs
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-core:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Validate contracts.json & Standard ABIs
+        run: |
+          python3 - << "EOF"
+          import json
+
+          with open("registry/contracts.json", "r", encoding="utf-8") as f:
+              reg = json.load(f)
+          with open("abi/CDBC_BEP20.abi.json", "r", encoding="utf-8") as f:
+              bep20 = json.load(f)
+          with open("abi/CDBC_ERC20.abi.json", "r", encoding="utf-8") as f:
+              erc20 = json.load(f)
+
+          assert reg["symbol"] == "CDBC"
+          assert reg["total_supply"] == "200000000"
+          assert reg["primary_contract"]["address"] == "0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9"
+          assert len(reg["bridge_contracts"]) >= 9
+          assert len(bep20) > len(erc20)
+          print("CORE REGISTRY & ABIS VALIDATED SUCCESSFULLY")
+          EOF
