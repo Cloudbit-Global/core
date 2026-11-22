@@ -23,4 +23,4 @@ Always verify contract addresses against the official `Cloudbit-Global/core` rep
 
 ## Reporting a Vulnerability
 
-If you discover a potential security issue across CloudbitDEX, our web portals, APIs, or Telegram bot, please report it directly via our official channels on `https://cdbc.io` or `https://x.com/cloudbit_` before disclosing it publicly.
+If you discover a potential security issue across CloudbitDEX, our web portals, APIs, mobile APKs, or Telegram bot, please report it directly via our official channels on `https://cdbc.io` or `https://x.com/cloudbit_` before disclosing it publicly.
