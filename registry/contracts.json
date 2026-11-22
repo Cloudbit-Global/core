@@ -17,7 +17,7 @@
     "website": "https://cdbc.io",
     "exchange_portal": "https://cloudbitex.com",
     "short_hub": "https://cloudbit.to",
-    "api": "https://cdbc.io/api",
+    "api": "https://cdbc-api.vercel.app/api/cdbc/supply",
     "telegram_bot": "https://t.me/cloudbit_ai_bot",
     "x": "https://x.com/cloudbit_",
     "instagram": "https://instagram.com/cloudbit.official"
