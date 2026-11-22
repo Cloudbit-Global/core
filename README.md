@@ -1,115 +1,68 @@
 <div align="center">
-  <!-- Replace with actual raw image URL if desired, currently using a placeholder block to represent the header -->
-  <h1>🌐 Cloudbit Classic ($CDBC)</h1>
-  <p><b>Innovative P2P Cryptocurrency & Multichain Platform</b></p>
-
-  [![Network](https://img.shields.io/badge/Network-BSC-F3BA2F?style=for-the-badge&logo=binance)](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9)
-  [![Type](https://img.shields.io/badge/Type-BEP--20-blue?style=for-the-badge)](https://cdbc.io)
-  [![Tax](https://img.shields.io/badge/Tax-0%25-success?style=for-the-badge)]()
-  [![Community](https://img.shields.io/badge/Community-Join_Us-0088cc?style=for-the-badge&logo=telegram)](https://linktr.ee/cloudbit)
+  <a href="https://cdbc.io">
+    <img src="https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png" alt="Cloudbit Classic ($CDBC) Logo" width="135" height="135" />
+  </a>
+  <h1>Cloudbit Classic (<code>$CDBC</code>) – Core Registry &amp; Architecture</h1>
+  <p><strong>Single Source of Truth for Verified Multichain Smart Contracts, Standard ABIs, Tokenomics &amp; Brand Assets</strong></p>
+  <p>
+    <a href="https://cdbc.io">cdbc.io</a> &bull;
+    <a href="https://cloudbitex.com">cloudbitex.com (CloudbitDEX)</a> &bull;
+    <a href="https://cdbc.io/api">Public API</a> &bull;
+    <a href="https://cloudbit.to">cloudbit.to</a> &bull;
+    <a href="https://t.me/cloudbit_ai_bot">@cloudbit_ai_bot</a> &bull;
+    <a href="https://x.com/cloudbit_">X (@cloudbit_)</a>
+  </p>
 </div>
-
-<br>
-
-## 📖 About Cloudbit Classic (CDBC)
-Founded in 2019, **Cloudbit** represents a decentralized ecosystem engineered to enable seamless communication between diverse blockchains and their smart contracts.
-
-CDBC powers a network driven by a massive community of data processing providers, node operators, smart contract developers, and security auditors. We bridge the gap by providing external data, events, payment methods, and off-chain information processing—all while ensuring decentralized participation remains globally accessible.
 
 ---
 
-## 💎 Tokenomics
+## Core Tokenomics
 
-| Feature | Details |
+| Parameter | Specification |
 | :--- | :--- |
-| **Name** | Cloudbit Classic |
-| **Symbol** | `$CDBC` |
-| **Network** | Binance Smart Chain (BSC) |
-| **Type** | BEP-20 |
-| **Decimals** | 18 |
-| **Total Supply** | 200,000,000 CDBC (100%) |
-| **Burned** | 2,000,000 CDBC (1%) 🔥 |
-| **Buy/Sell Tax** | 0% 💸 |
-
-> **Official Main Contract Address (BSC):**
-> `0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9`
+| **Project Name** | Cloudbit Classic |
+| **Ticker / Symbol** | CDBC (`$CDBC`) |
+| **Total Supply** | `200,000,000 CDBC` (Fixed Maximum Supply) |
+| **Buy / Sell Tax** | `0% Buy Tax / 0% Sell Tax` |
+| **Primary Network** | BNB Smart Chain (BSC / BEP-20) |
+| **Decimals** | `18` (EVM Standard) |
 
 ---
 
-## 🌍 Multichain Architecture & Smart Contracts
-Cloudbit Classic isn't limited to a single chain. Our robust cross-chain bridge architecture extends $CDBC across the following networks:
+## Verified Smart Contract Registry
 
-*   🟡 **Main-CA:** Smart Chain Network (BSC)
-*   🔵 **Bridge-CAs:**
-    *   Ethereum Network (ETH)
-    *   Arbitrum Network (ARB)
-    *   Polygon Network (MATIC)
-    *   Optimism Network (OP)
-    *   Avalanche C-Network (AVAX)
-    *   Sonic Mainnet Network (S)
-    *   Aptos Chain Network (APT)
-    *   Base Mainnet Network (BASE)
-    *   Solana Network (SOL)
-    *   Terra Classic Network (LUNC)
-    *   Terra Mainnet Network (LUNA)
+### Primary Main Contract
+* **BNB Smart Chain (BEP-20):** `0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9` ([BscScan](https://bscscan.com/token/0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9))
 
----
+### Verified Multichain Bridge Contracts
+| Network | Standard | Verified Contract Address | Block Explorer |
+| :--- | :--- | :--- | :--- |
+| **Ethereum** | ERC-20 | `0xf2fef8fa2c52b927c0a589a1a645c77189f24541` | [Etherscan](https://etherscan.io/token/0xf2fef8fa2c52b927c0a589a1a645c77189f24541) |
+| **Arbitrum One** | ERC-20 | `0xdc95becd16081bf00c3cabac5820a3e18b495cad` | [Arbiscan](https://arbiscan.io/token/0xdc95becd16081bf00c3cabac5820a3e18b495cad) |
+| **Polygon (PoS)** | ERC-20 | `0x026a2ede22cc9525793120a3763d3a1c2c6840a8` | [Polygonscan](https://polygonscan.com/token/0x026a2ede22cc9525793120a3763d3a1c2c6840a8) |
+| **Optimism** | ERC-20 | `0x92f1950d8c80a2d844b321e65e226a694801cc13` | [Optimistic Etherscan](https://optimistic.etherscan.io/token/0x92f1950d8c80a2d844b321e65e226a694801cc13) |
+| **Avalanche C-Chain** | ARC-20 | `0x7462617313b26d7b72daed71a852e51588f7f1a7` | [Snowtrace](https://snowtrace.io/token/0x7462617313b26d7b72daed71a852e51588f7f1a7) |
+| **Base** | ERC-20 | `0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b` | [Basescan](https://basescan.org/token/0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b) |
+| **Solana** | SPL | `J74E2uSud3EH2aAUNLaxMRDyHde7oHDYopGLaim4DZta` | [Solscan](https://solscan.io/token/J74E2uSud3EH2aAUNLaxMRDyHde7oHDYopGLaim4DZta) |
+| **Aptos** | Aptos Coin | `0x6917bec3bdfe7423619c1e128f8bebdc62405377aaf32365283e2ec5353fe1f7::coin::T` | [Aptos Explorer](https://explorer.aptoslabs.com/coin/0x6917bec3bdfe7423619c1e128f8bebdc62405377aaf32365283e2ec5353fe1f7::coin::T) |
+| **Terra Classic** | CW-20 | `terra1q20zrqn278jm6e4a2z5ygky00h22l4js7wsge74xf4wwyald4r8qsyvyuj` | [Terra Finder](https://finder.terra.money/classic/address/terra1q20zrqn278jm6e4a2z5ygky00h22l4js7wsge74xf4wwyald4r8qsyvyuj) |
 
-## 🚀 Roadmap
-
-### 🟢 Phase 1: Preparations
-- [x] New Whitepaper, One-Pager, and Pitch-Deck documents
-- [x] New Website Design
-- [x] Upgraded Infrastructure within the Cloudbit Ecosystem
-- [x] Creation of Cloudbit Classic (CDBC)
-- [x] $CDBC Audited by AnalytixAudit
-- [x] Press Release Distribution by King NewsWire
-
-### 🟡 Phase 2: $CDBC Coin Launch
-- [ ] Crosschain/Multichain Bridge Implementation
-- [ ] Obtain SAFU & KYC Badge
-- [ ] Fair Launch on Pinksale
-- [ ] Staking Pool on GemPad (Stake CDBC / Earn CDBC)
-- [ ] CG (CoinGecko) and CMC (CoinMarketCap) Listings
-- [ ] Reach 1,000+ Holders
-
-### 🟠 Phase 3: Vibe and HODL
-- [ ] Community Partnerships & *CDBC Times* Digital Newsletter
-- [ ] Token-Gated Telegram Group for Holders
-- [ ] Get $CDBC Trending on Twitter
-- [ ] Initial CEX Listings
-- [ ] Reach 10,000+ Holders
-
-### 🔴 Phase 4: Coin Takeover
-- [ ] CDBC Academy, Merch, and Tools rollout
-- [ ] Tier 1 (T1) Exchange Listings
-- [ ] Coin Takeover initiatives
-- [ ] Reach 100,000+ Holders
+### 15-Chain Roadmap Expansion
+* **Upcoming Bridge Integrations:** Sonic, NEAR, Sui, World, Terra, Cronos, Fantom, Gnosis, Kava, Moonbeam, Celo *(Upcoming Bridge Integration)*
 
 ---
 
-## 📚 Documentation & Resources
-Access all our technical and promotional materials below:
-
-- 📄 [Whitepaper](https://docsend.com/view/u3tv96pv29fv48qv)
-- 📄 [One-Pager](https://docsend.com/view/bwzi5umfc3snf7mg)
-- 📄 [Pitch-Deck](https://docsend.com/view/82pscuge38wm53h3)
-- 🛡️ [Audit-Report](https://github.com/AnalytixAudit/Solidity/blob/main/20230224_Analytix_Audit_Cloudbit_Classic_Audit.pdf)
-- 🗳️ [Voting-Provider](https://docsend.com/view/ewezccw9ssqjkjce)
-- 📜 [Terms of Coin Sale](https://docsend.com/view/dzei46jwjaqmpdn6)
+## Machine-Readable Artifacts
+* **[`registry/contracts.json`](https://raw.githubusercontent.com/Cloudbit-Global/core/main/registry/contracts.json)** – Full JSON registry (`v2.0.0`) with Chain IDs, explorers, and asset URLs.
+* **[`abi/CDBC_BEP20.abi.json`](https://raw.githubusercontent.com/Cloudbit-Global/core/main/abi/CDBC_BEP20.abi.json)** – Verified BEP-20 contract ABI for BNB Smart Chain.
+* **[`abi/CDBC_ERC20.abi.json`](https://raw.githubusercontent.com/Cloudbit-Global/core/main/abi/CDBC_ERC20.abi.json)** – Verified ERC-20 contract ABI for EVM bridge networks.
+* **[`assets/cdbc-logo-256.png`](https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png)** – Transparent `256x256 px` wallet-ready token icon.
 
 ---
 
-## 🌐 Official Links & Contact
-Stay updated and join the Cloudbit community!
-
-- 🌐 **Web:** [CDBC.IO](https://cdbc.io)
-- 📱 **APP:** [CDBC-APP](https://cdbc-app.vercel.app)
-- 🔌 **API:** [CDBC-API](https://cdbc.io/api)
-- 🌳 **All Links:** [Linktree](https://linktr.ee/cloudbit)
-- ✉️ **Contact Us:** [Get in touch](mailto:support@cloudbitex.com)
-
-<br>
-<div align="center">
-  <i>Built with ❤️ by the Cloudbit Team</i>
-</div>
+## Official Cloudbit-Global Ecosystem Repositories
+* **[`Cloudbit-Global/core`](https://github.com/Cloudbit-Global/core)** – Core architecture, multichain contract registry, verified ABIs, and brand assets.
+* **[`Cloudbit-Global/cdbc-dex`](https://github.com/Cloudbit-Global/cdbc-dex)** – Official CloudbitDEX multichain decentralized exchange and listing portal (`cloudbitex.com`).
+* **[`Cloudbit-Global/cdbc-app`](https://github.com/Cloudbit-Global/cdbc-app)** – Official main project portal and Android APK (`cdbc.io`).
+* **[`Cloudbit-Global/cdbc-api`](https://github.com/Cloudbit-Global/cdbc-api)** – Public supply endpoints and OpenAPI 3.1 specifications (`cdbc.io/api`).
+* **[`Cloudbit-Global/cdbc-bot`](https://github.com/Cloudbit-Global/cdbc-bot)** – Official Telegram GameFi & Tap2Earn Bot (`@cloudbit_ai_bot` / `cloudbit.to`).
